@@ -1,0 +1,23 @@
+body{
+    background: rgba(248, 163, 157, 0.81);
+    font-family: 'Montserrat Alternates', sans-serif;
+
+
+}
+
+span {
+
+
+  position: relative;  
+  top: 325px;
+  left: 133px;
+    display: inline-block;
+    
+    color: #9A031E;
+
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
