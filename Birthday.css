@@ -353,7 +353,7 @@ body {
     .making {
         margin-top: 100px;
         display: block;
-        height: 450px;
+        height: 6   00px;
     }
     .Making-Title {
         margin-top: 40px;
@@ -381,6 +381,10 @@ body {
         bottom: 50px;
         left: 100px;
 
+    }
+
+    .finalsect {
+        margin: 100px 0px;
     }
 
     
