@@ -1,13 +1,21 @@
+root {
+    font-size: 20px;
+}
 body{
     background: rgba(248, 163, 157, 0.81);
     font-family: 'Montserrat Alternates', sans-serif;
-
+    margin: 0;
 
 }
+header {
+    display: block;
+    height: 799px;
+    background: url(pinkclouds1.jpg), lightgray 50% / cover no-repeat;
+}
+.headtitle {
 
-span {
-
-
+    width: 351px;
+    height: 187px;
   position: relative;  
   top: 325px;
   left: 133px;
@@ -16,8 +24,193 @@ span {
     color: #9A031E;
 
 font-family: Montserrat;
-font-size: 64px;
+font-size: 4rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+}
+
+
+.video-container { 
+    top: 500px;
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust the width as needed */
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.making {
+   
+ display: flex;
+width: 100%;
+height: 725px;
+background: #FFF;
+
+align-items: center;
+justify-content: center;
+
+flex-wrap: wrap;
+}
+
+.Making-Title {
+width: 100%;
+    display: inline-block;
+   position: relative;
+   /* bottom: 280px; */
+   color: #012A36;
+
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;    
+
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.finalsect {
+height: 1005px;
+display: flex;
+justify-content: center;
+
+}
+
+.finalhead {
+
+    color: #9A031E;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.card {
+
+width: 551px;
+border-radius: 36px;
+background: #FFF;
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    transition: top 0.3s;
+}
+
+.navbar button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.content {
+    padding-top: 80px; /* Adjust the padding top to accommodate the fixed navbar */
+}
+
+.section {
+    height: 600px;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 24px;
+    line-height: 600px;
+}
+
+.player {
+    aspect-ratio: 16/9;
+    width: 800px;
+    margin: 0;
+    /* position: relative;
+    top: 500px; */
+    
+}
+@media screen and (max-width: 768px) {
+    .making {
+        background-color: #012A36;
+    }
+    .header { 
+        
+        width: mz;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 25%;
+    }
+    .headtitle {
+        width: 100%;
+
+    }
+    .Making-Title {
+        font-size: 20px;
+    }
+    .player {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .header { 
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 25%;
+        flex-wrap: wrap;
+    }
+    .headtitle {
+        /* width: 100%; */
+        font-size: 3rem;
+       
+
+    }
+    .Making-Title {
+        font-size: 20px;
+    }
+    .player {
+        width: 500px;
+    }
 }
