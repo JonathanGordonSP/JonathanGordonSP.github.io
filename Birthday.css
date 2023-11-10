@@ -372,14 +372,16 @@ body {
     .Max {
       position: relative;
        bottom: 50px;
-       right: 100px;
+       right: 50px;
 
     }
     .Jinx {
       position: relative;
         margin-left: 0;
         bottom: 50px;
-        left: 100px;
+        left: 40px;
+        width: 130px;
+
 
     }
 
