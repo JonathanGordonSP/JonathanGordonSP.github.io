@@ -8,7 +8,8 @@ body{
 
 }
 header {
-    display: block;
+   
+    width: auto;
     height: 799px;
     background: url(pinkclouds1.jpg), lightgray 50% / cover no-repeat;
 }
@@ -21,7 +22,7 @@ header {
   left: 133px;
     display: inline-block;
     
-    color: #9A031E;
+    color: rgba(248, 163, 157, 0.81);
 
 font-family: Montserrat;
 font-size: 4rem;
@@ -46,7 +47,7 @@ video {
 .making {
    
  display: flex;
-width: 100%;
+
 height: 725px;
 background: #FFF;
 
@@ -120,13 +121,16 @@ body {
 }
 
 .navbar {
+    display: flex;
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+
     color: #fff;
     padding: 10px 0;
     transition: top 0.3s;
+
 }
 
 .navbar button {
@@ -138,9 +142,11 @@ body {
     display: none;
 }
 
+
 .navbar-links {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .navbar a {
@@ -149,6 +155,10 @@ body {
     padding: 10px 20px;
 }
 
+.nav-icon {
+    cursor: pointer;
+    align-self: flex-end;
+}
 .content {
     padding-top: 80px; /* Adjust the padding top to accommodate the fixed navbar */
 }
@@ -171,11 +181,11 @@ body {
 }
 @media screen and (max-width: 768px) {
     .making {
-        background-color: #012A36;
+     
     }
     .header { 
         
-        width: mz;
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -194,7 +204,7 @@ body {
 }
 @media screen and (max-width: 630px) {
     .header { 
-        
+  
         display: flex;
         justify-content: center;
         align-items: center;
@@ -204,13 +214,24 @@ body {
     .headtitle {
         /* width: 100%; */
         font-size: 3rem;
-       
+        left: 0px;
 
+    }
+
+    .navbar {
+        display: flex;
+        align-items: right;
+        width: 100%;
+    }
+
+    div a {
+        display: none;
     }
     .Making-Title {
         font-size: 20px;
     }
     .player {
-        width: 500px;
+        aspect-ratio: 16/9;
+        width: 330px;
     }
 }
