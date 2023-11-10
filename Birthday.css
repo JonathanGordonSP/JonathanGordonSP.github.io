@@ -213,8 +213,9 @@ body {
     }
     .headtitle {
         /* width: 100%; */
-        font-size: 3rem;
-        left: 0px;
+        font-size: 4rem;
+        left: 25%;
+        right: 25%
 
     }
 
